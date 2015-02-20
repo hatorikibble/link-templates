@@ -1,3 +1,5 @@
+!https://travis-ci.org/hatorikibble/link-templates.svg?branch=master!:https://travis-ci.org/hatorikibble/link-templates
+
 h1. Link Templates
 
 Templates for linking into catalogues of hbz union members and more.
