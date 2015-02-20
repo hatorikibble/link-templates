@@ -2,15 +2,16 @@
 
 use strict;
 use warnings;
+use FindBin qw($Bin);
 
 use Test::More;
+
 use File::Slurp;
 use Try::Tiny;
 use JSON;
-use Data::Dumper;
 
 my $json_file = "../isil2opac_hbzid.json";
-my $json_text = read_file("../isil2opac_hbzid.json");
+my $json_text = read_file("$Bin/../isil2opac_hbzid.json");
 my $status    = undef;
 my $perl_ref  = undef;
 
