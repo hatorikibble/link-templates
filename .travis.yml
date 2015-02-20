@@ -4,6 +4,9 @@ perl:
   - "5.18"
 install:
 # Deal with dependencies
-- cpanm --notest --installdeps ./t
+- cpanm --notest Test::More
+- cpanm --notest File::Slurp
+- cpanm --notest Try::Tiny
+- cpanm --notest JSON
 script:
 - prove t/01-json.t
